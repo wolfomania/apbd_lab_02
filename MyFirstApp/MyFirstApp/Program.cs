@@ -16,4 +16,6 @@ static double GetAverage(int[] numbers)
     return sum / numbers.Length;
 }
 
-
+int[] numbers = new[] { 1, 3, 5, 12, 65, 3, 5 };
+double var = GetAverage(numbers);
+Console.WriteLine(var);

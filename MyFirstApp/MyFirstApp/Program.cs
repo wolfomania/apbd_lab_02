@@ -8,12 +8,13 @@ Console.WriteLine("Modification 3");
 
 static double GetAverage(int[] numbers)
 {
-    double sum = 0;
+    double totalSum = 0;
+    // Just messing aroung with the loop
     foreach (int number in numbers)
     {
-        sum += number;
+        totalSum += number;
     }
-    return sum / numbers.Length;
+    return totalSum / numbers.Length;
 }
 
 static int GetMax(int[] numbers)
